@@ -1,7 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
+import datetime
 from selenium.webdriver.common.keys import Keys
+
+t = str(datetime.datetime.now()).split(" ")
+print(t[0])
 
 class App:
     def __init__(self, que=input('\nEnter: ').replace(" ", "+")):
