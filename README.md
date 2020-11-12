@@ -20,8 +20,11 @@ using `BeauifulSoup` and `Requests` is Hot choice for Develop Scraping Project. 
 ## Requirements
 As you can see I'm using `Selenium web drive` to show your result in web browser. so you need to install `Chrome Driver`.
 for installing Module, follow these commands:
-> ```pip install selenium```
-> ```pip install BeautifulSoup4```
+```
+pip install selenium
+pip install BeautifulSoup4
+
+```
 
 
 ## License
